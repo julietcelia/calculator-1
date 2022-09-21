@@ -50,3 +50,16 @@ def mod(num1, num2):
     
     remainder = num1 % num2
     return remainder 
+
+def add_mult(num1, num2, num3):
+    """Get the sum of num1 and num2, then multiply sum with num3."""
+    sum_mult = (num1 + num2) * num3
+    return sum_mult
+
+def add_cubes(num1, num2):
+    """Add the cubes of num1 and num2."""
+    cubed_num1 = num1 * num1 * num1
+    cubed_num2 = num2 * num2 * num2
+    sum_cubes = cubed_num1 + cubed_num2
+
+    return sum_cubes
