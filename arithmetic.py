@@ -36,6 +36,9 @@ def square(num1):
 def cube(num1):
     """Return the cube of num1."""
 
+    cubed = num1 * num1 * num1
+    return cubed
+
 
 def power(num1, num2):
     """Raise num1 to the power of num2 and return the value."""
